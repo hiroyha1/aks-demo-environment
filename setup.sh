@@ -9,7 +9,7 @@ fi
 rg=$1
 location=$2
 
-git clone https://github.com/tsubasaxZZZ/aks-demo-environment.git
+git clone https://github.com/hiroyha1/aks-demo-environment.git
 cd aks-demo-environment
 
 terraform init
