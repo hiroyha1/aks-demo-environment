@@ -169,7 +169,7 @@ module "demo-aks" {
   location                   = module.resource_group.location
   container_registry_id      = module.acr.id
   log_analytics_workspace_id = module.la.id
-  kubernetes_version         = "1.19.3"
+  kubernetes_version         = "1.19.7"
   private_cluster            = false
   default_node_pool = {
     name                           = "nodepool"
